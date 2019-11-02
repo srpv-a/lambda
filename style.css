@@ -1,0 +1,132 @@
+/* Global settings */
+* {
+  font-family: Work Sans;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+p {
+  margin: 0 0;
+}
+
+/*  --- Landing section  --- */
+.landing-section {
+  display: grid;
+  grid-template-columns: auto 54.8%;
+  margin: 0 0 0 0;
+}
+
+.left-section {
+  padding: 0 0;
+}
+
+.right-section {
+  padding-top: 200px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.right-section img {
+  padding: 0 0;
+  width: 500px;
+  height: auto;
+}
+
+/* --- Left section ---  */
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px 50px 0px 50px;
+}
+
+/* Logo section */
+.logo {
+  text-align: left;
+}
+
+.home {
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding-right: -1px;
+}
+
+.work {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.country {
+  margin-top: 0px;
+  font-size: 11px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+/* Right menu section in footer */
+.menu {
+  float: right;
+  display: flex;
+  margin-top: 17px;
+}
+
+.my_table {
+  font-size: 16px;
+  font-weight: 300;
+  font-weight: 400;
+}
+
+/*  --- Landing big middle text section --- */
+
+.middle-section {
+  margin: 180px 110px 50px 8vh;
+  float: right;
+}
+
+.pretty_cool {
+  color: #c3cad6;
+  font-size: 9px;
+  letter-spacing: 9px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.landing-line {
+  display: block;
+  height: 1px;
+  width: 127px;
+  border: 0;
+  border-top: 1px solid #c3cad6;
+}
+
+/* Landing title */
+.landing-first-section {
+  margin: 17px 0px 6px 0px;
+}
+
+.landing-first-word {
+  font-size: 47px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.landing-second-word {
+  font-size: 47px;
+}
+
+.landing-second-section {
+  margin-bottom: 26px;
+}
+
+/* Landing description under title */
+.landing-middle-text {
+  margin-top: 26.5px;
+  font-size: 15px;
+  color: #272727;
+  line-height: 30px;
+  word-spacing: 1.25px;
+}
