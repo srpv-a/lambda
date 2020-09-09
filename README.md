@@ -1,2 +1,3 @@
 # lambda
-web-page
+Github pages
+Link: https://srpv-a.github.io/lambda/
